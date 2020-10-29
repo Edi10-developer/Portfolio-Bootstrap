@@ -5,7 +5,9 @@
 
 Universal Template 
 
-https://bootstrapious.com/p/universal-business-e-commerce-template
+https://bootstrapious.com/p/universal
+
+business-e-commerce-template
 
 ==================================================================================
 ==================================================================================
@@ -2055,7 +2057,7 @@ ul ul a.nav-link {
   width: 80px;
   height: 32px;
   line-height: 32px;
-  background: #4fbfa8;
+  background: #2969FE;
   color: #fff;
   text-transform: uppercase;
   letter-spacing: 0.1em;
@@ -2204,7 +2206,7 @@ ul ul a.nav-link {
 .map-custom-tooltip.active {
   color: #fff;
   border-color: #4fbfa8;
-  background-color: #4fbfa8;
+  background-color:#2969FE;
 }
 
 .map-custom-tooltip.active:before {

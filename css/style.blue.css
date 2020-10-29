@@ -379,7 +379,8 @@ p.lead {
 }
 
 .dark-mask.mask-primary {
-  background: rgba(70, 127, 191, 0.9);
+  background: rgba(70, 127, 191, 0.4);
+  transition: all 400ms linear;
 }
 
 .icon-outlined {
@@ -565,10 +566,10 @@ table input[type="number"] {
 }
 
 .top-bar {
-  background: #555;
+  background: rgba(0, 0, 0, .9);
   color: #fff;
   font-size: 0.9rem;
-  padding: 10px 0;
+  padding: 15px 0;
 }
 
 .top-bar.top-bar-light {

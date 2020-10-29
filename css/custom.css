@@ -1,1 +1,32 @@
 /* your styles go here */
+
+.home-carousel {
+    color: rgba(11, 12, 92, 0.98);
+}
+
+
+.homepage .item img {
+    width: 500px !important;
+    height: 350px;
+    border-radius: 20px;
+    margin: 20px auto;
+    border: 6px solid  rgba(70, 127, 191, 0.6);;
+    opacity: .8;
+    transition: all 300ms;
+   
+}
+
+.homepage .item img:hover{
+    opacity: 1;
+    border: 12px solid  rgba(70, 127, 191, 1);;
+}
+
+.item h1{
+    line-height: 250px;
+    margin-bottom:  10px !important;
+}
+
+
+.owl-carousel:hover,  .dark-mask.mask-primary:hover {
+    background: rgba(70, 127, 191, 0.1);
+}
