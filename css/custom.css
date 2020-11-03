@@ -30,10 +30,11 @@
 .owl-carousel{
     height: 55vh;
     background-color: rgba(0, 0, 0, .7) !important;
-    animation-name: giratut;
+  /*  animation-name: giratut; 
     animation-duration: 2s;
     animation-iteration-count: infinite;
-    animation-timing-function: linear;
+    animation-timing-function: linear; 
+    */
 }
 .owl-carousel:hover,  .dark-mask.mask-primary:hover {
     background: rgba(70, 127, 191, 0.1);
@@ -60,7 +61,7 @@
         margin-bottom:  10px !important;
     }
 }
-
+/*
 @keyframes giratut {
     0%{
        background-color: rgba(70, 127, 191, 0.1);
@@ -79,7 +80,7 @@
         background-color: rgba(70, 127, 191, .3);
     }
 }
-
+*/
 /* Brand who work with us*/
 .owl-carousel-brand{
     display: flex !important;
@@ -182,7 +183,3 @@
     }
 }
 */
-
-.progress_soft{
-    ;
-}
