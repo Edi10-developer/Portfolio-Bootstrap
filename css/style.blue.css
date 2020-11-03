@@ -379,7 +379,7 @@ p.lead {
 }
 
 .dark-mask.mask-primary {
-  background: rgba(70, 127, 191, 0.4);
+  background: rgba(70, 127, 191, 0.1);
   transition: all 400ms linear;
 }
 
@@ -923,7 +923,7 @@ header.nav-holder.sticky {
 }
 
 .customers .item {
-  margin: 0 20px;
+  margin: 0 60px;
 }
 
 .customers .item img {
