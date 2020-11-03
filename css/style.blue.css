@@ -380,7 +380,7 @@ p.lead {
 
 .dark-mask.mask-primary {
   background: rgba(70, 127, 191, 0.1);
-  transition: all 400ms linear;
+  transition: all 4s linear;
 }
 
 .icon-outlined {
@@ -923,7 +923,7 @@ header.nav-holder.sticky {
 }
 
 .customers .item {
-  margin: 0 60px;
+  margin: 0 20px;
 }
 
 .customers .item img {
