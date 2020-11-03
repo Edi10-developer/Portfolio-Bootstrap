@@ -42,7 +42,7 @@
 
 @media (max-width: 767px) {
     .owl-carousel{
-        height: 53vh;
+        height: 55vh;
     }
     .homepage .item img{
         width: 250px !important;
