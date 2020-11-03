@@ -80,16 +80,24 @@
     }
 }
 
+/* Brand who work with us*/
 .owl-carousel-brand{
     display: flex !important;
     align-items: center !important;
+    flex-direction: row !important;
 }
+
+.owl-carousel-brand .item{
+    align-items: center !important;
+}
+
 .owl-carousel-brand .item img {
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
-    margin-left: 60px !important;
+    margin: 20px  80px  20px 0px !important;
+   
 }
 
 .owl-carousel-brand .item img:hover {
@@ -97,11 +105,27 @@
     filter: grayscale(0%);
 }
 
+.owl-carousel-brand img{
+    margin: o auto;
+
+}
+.brand_class{
+    margin: 0px auto;
+    align-items: center;
+    width: 90px; 
+    height: 90px;
+    border-radius: 50%; 
+   
+    border: 4px solid black; 
+}
+
+
 /* card animation */
 .main-container{
     position: relative;
-    width: 100%;
-    height: 500px;;
+    width: 99%;
+    height: 500px;
+  
 }
 
 .thecard{
@@ -158,3 +182,7 @@
     }
 }
 */
+
+.progress_soft{
+    ;
+}
