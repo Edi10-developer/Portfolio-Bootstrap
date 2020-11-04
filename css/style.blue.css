@@ -697,7 +697,7 @@ header.nav-holder.sticky {
   background: #fff;
   padding-top: 0;
   padding-bottom: 0;
-  z-index: 999;
+  z-index: 999 !important;
 }
 
 #navbar .navbar-toggler {
