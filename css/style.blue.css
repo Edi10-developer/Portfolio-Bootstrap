@@ -1097,6 +1097,12 @@ header.nav-holder.sticky {
   }
 }
 
+@media screen and (min-device-width: 415px) and (max-device-width: 768px) {  
+  .home-carousel img {
+    display: none !important;
+  }
+}
+
 .owl-thumbs {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1136,7 +1142,6 @@ header.nav-holder.sticky {
 
 .home-blog-post .btn{
   line-height: 10px;
-  align-text-bottom
 }
 
 .home-blog-post .overlay a {
@@ -1944,6 +1949,10 @@ table tr td {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
+  }
+
+  .owl-carousel .item .row img{ aquiiiiiii
+    display: none !important;
   }
 
 .home-blog-post{
