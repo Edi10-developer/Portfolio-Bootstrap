@@ -129,10 +129,31 @@ p.lead {
   }
 }
 
-@media (max-width: 991px) {
+@media screen and (min-device-width: 767px) and (max-device-width: 991px) {
   .text-md-center {
     text-align: center !important;
   }
+
+  .home-blog-post{
+    width: 80% !important;
+    margin-left: 10% !important;
+    margin-right: 10% !important;
+    height: 55vh !important;
+  
+  
+    margin-bottom: 20px !important;
+  }
+  
+  .home-blog-post img{
+    margin-top: 90px !important;
+    width: 90%;
+    height: 200px
+  }
+  .home-blog-post .intro{
+    font-size: 14px !important;
+    
+  }
+  
 }
 
 @media (max-width: 1199px) {
@@ -1091,7 +1112,11 @@ header.nav-holder.sticky {
 
 .home-blog-post {
   margin: 15px 0;
+  padding-bottom: 10px;
+  min-height: 500px;
+  margin-bottom: 20px !important;
 }
+
 
 .home-blog-post .image {
   position: relative;
@@ -1107,6 +1132,11 @@ header.nav-holder.sticky {
   opacity: 0;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
+}
+
+.home-blog-post .btn{
+  line-height: 10px;
+  align-text-bottom
 }
 
 .home-blog-post .overlay a {
@@ -1915,6 +1945,21 @@ table tr td {
     -ms-flex-direction: column;
     flex-direction: column;
   }
+
+.home-blog-post{
+  margin: 15px 0;
+  height: 55vh !important;
+  margin-bottom: 20px !important;
+  padding: 20px;
+}
+
+.home-blog-post img{
+  width: 80%;
+  margin: 15px 0;
+  height: 220px;
+  margin-bottom: 20px !important;
+}
+
 }
 
 .sidebar-menu .badge {
@@ -3780,7 +3825,7 @@ a > code {
   margin-bottom: 15px;
 }
 
-@media (min-width: 576px) {
+@media (max-width: 576px) {
   .card-deck {
     margin-right: -15px;
     margin-left: -15px;
@@ -3789,4 +3834,16 @@ a > code {
     margin-right: 15px;
     margin-left: 15px;
   }
+
+  .home-blog-post{
+    margin: 10px 0;
+    height: 59vh !important;
+    padding-bottom: 10px !important;
+    width: 98%;
+  }
+  
+  .home-blog-post .intro{
+    font-size: 13px !important;
+  }
+  
 }
