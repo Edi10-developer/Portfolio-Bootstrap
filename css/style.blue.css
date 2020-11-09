@@ -172,6 +172,9 @@ p.lead {
   .text-center-md {
     text-align: center !important;
   }
+  .image_edi img{
+    display: none;
+  }
 }
 
 @media (max-width: 1199px) {
@@ -261,7 +264,7 @@ p.lead {
 }
 
 .background-pentagon, #heading-breadcrumbs {
-  background: url("../img/texture-bw.png") center center repeat;
+  background: url("../img/paven.png") center center repeat;
   border-top: 1px solid #999;
   border-bottom: 1px solid #999;
 }
@@ -1098,6 +1101,14 @@ header.nav-holder.sticky {
 }
 
 @media screen and (min-device-width: 415px) and (max-device-width: 768px) {  
+  .home-carousel{
+    text-align: center;
+  }
+
+  .home-carouset h1, .home-carousel p{
+    text-align: center;
+    margin: 0 auto !important;
+  }
   .home-carousel img {
     display: none !important;
   }
@@ -1687,7 +1698,7 @@ header.nav-holder.sticky {
 }
 
 .team-member .image img{
-  margin: 10% 20%;
+ 
   border: 2px solid#51773E !important;
 }
 
@@ -1949,10 +1960,6 @@ table tr td {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-  }
-
-  .owl-carousel .item .row img{ aquiiiiiii
-    display: none !important;
   }
 
 .home-blog-post{

@@ -23,7 +23,7 @@
 }
 
 .item h1{
-    line-height: 150px;
+    line-height: 120px;
     margin-bottom:  10px !important;
 }
 
@@ -186,3 +186,41 @@
     }
 }
 */
+
+.image_edi img{
+    display: block;
+    margin: 25%;
+    transition: all 2s ease;
+    animation: girafoto;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    padding-bottom: 10px;
+    -webkit-box-shadow: 6px 4.5px 6px -1px rgba(53,54,56,0.8); 
+    box-shadow: 6px 4.5px 6px -1px rgba(53,54,56,0.8);
+  }
+
+  @keyframes girafoto {
+    0%{
+        transform: rotateX(0deg);;
+    }
+    17% {
+        transform: rotateX(90deg);
+    }
+    34% {
+        transform: rotateX(270deg);
+    }
+
+    51% {
+        transform: rotateX(360deg);
+    }
+    68%{
+        transform: rotateX(270deg);
+    }
+    85%{
+        transform: rotateX(180deg);
+    }
+    100%{
+        transform: rotateX(90deg);
+    }
+}
