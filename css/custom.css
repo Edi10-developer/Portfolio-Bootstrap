@@ -139,7 +139,7 @@
     animation-timing-function: linear;
     padding-bottom: 10px;
     -webkit-box-shadow: 6px 4.5px 6px -1px rgba(53,54,56,0.8); 
-    box-shadow: 6px 4.5px 6px -1px rgba(53,54,56,0.8);*/
+    box-shadow: 6px 4.5px 6px -1px rgba(53,54,56,0.8);
 }
 
 .thefront{
@@ -195,7 +195,6 @@
     animation-duration: 4s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
-    padding-bottom: 10px;
     -webkit-box-shadow: 6px 4.5px 6px -1px rgba(53,54,56,0.8); 
     box-shadow: 6px 4.5px 6px -1px rgba(53,54,56,0.8);
   }
@@ -223,4 +222,9 @@
     100%{
         transform: rotateX(90deg);
     }
+}
+
+.resume.row form{
+    display: flex;
+    align-self: center;
 }
