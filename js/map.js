@@ -5,7 +5,7 @@ $(function () {
 	// ------------------------------------------------------ //
 
 	var mapId = 'map',
-		mapCenter = [53.14, 8.22],
+		mapCenter = [41.3851, 2.1734],
 		mapMarker = true;
 
 	if ($('#' + mapId).length > 0) {
@@ -27,7 +27,7 @@ $(function () {
 
 		var map = L.map(mapId, {
 			center: mapCenter,
-			zoom: 13,
+			zoom: 9,
 			dragging: dragging,
 			tap: tap,
 			scrollWheelZoom: false
