@@ -238,4 +238,15 @@
 .navbar-toggler{
     margin-top: -15% !important;
 }
+
+.owl-carousel-brand img{
+    width: 50%;
+    height: 50%;
+}
+.owl-carousel-brand .item{
+    margin-left: -15px;
+}
+.owl-carousel-brand .item:first-child{
+    margin-left: 10px;
+}
 }
