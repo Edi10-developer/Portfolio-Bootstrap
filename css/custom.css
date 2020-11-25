@@ -228,3 +228,14 @@
     display: flex;
     align-self: center;
 }
+
+@media(max-width: 482px){
+ .navbar-brand img{
+    width: 70% !important;
+    float: right;
+}
+
+.navbar-toggler{
+    margin-top: -15% !important;
+}
+}
