@@ -250,3 +250,19 @@
     margin-left: 10px;
 }
 }
+
+.cert_iframe, .item .row img{
+    height: 330px !important; 
+    width: auto !important;
+    padding-top: -20px !important;
+    opacity: 1 !important;
+    margin: 0 auto !important;
+}
+
+.about-carousel{
+   height: 400px !important;
+   width: auto;
+   padding: 20px !important;
+   margin: 0px auto;
+   text-align: center;
+}
