@@ -229,6 +229,24 @@
     align-self: center;
 }
 
+.cert_iframe, #about .item .row img{
+    height: 330px !important; 
+    width: auto !important;
+    padding-top: -20px !important;
+    opacity: 1 !important;
+    margin: 0 auto;
+}
+
+.about-carousel{
+    display:inline-block;
+    text-align: center;
+   height: 400px !important;
+   width: auto;
+   padding: 20px !important;
+   margin: 0px auto;
+   text-align: center;
+}
+
 @media(max-width: 482px){
  .navbar-brand img{
     width: 70% !important;
@@ -249,20 +267,18 @@
 .owl-carousel-brand .item:first-child{
     margin-left: 10px;
 }
-}
-
-.cert_iframe, .item .row img{
-    height: 330px !important; 
-    width: auto !important;
-    padding-top: -20px !important;
-    opacity: 1 !important;
-    margin: 0 auto !important;
-}
 
 .about-carousel{
-   height: 400px !important;
-   width: auto;
-   padding: 20px !important;
-   margin: 0px auto;
-   text-align: center;
+    display: none;
+}
+}
+
+.box-image img{
+    height: 280px;
+    width: 400px;
+}
+
+.box-image img{
+    min-height: 100%;
+    min-width: 100%;
 }
