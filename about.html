@@ -42,9 +42,9 @@
 <body>
   <div id="all">
     <!-- Top bar-->
-    <div class="top-bar">
+    <!-- <div class="top-bar">
       <p>Contact me on +34 632 890 768 or <a href="mailto:selimi.edi.1991@gmail.com">selimi.edi.1991@gmail.com</a></p>
-    </div>
+    </div> -->
     <!-- Top bar end-->
 
     <!--    Navbar Start    -->
@@ -69,41 +69,10 @@
               <!--portfolio-->
               <li class="nav-item  menu-large"><a href="./projects.html">Portfolio<b class="caret"></b></a>
               </li>
-            <!--
-              <li class="nav-item dropdown menu-large "><a href="./projects.html" data-toggle="dropdown"
-                  class="dropdown-toggle ">Portfolio <b class="caret"></b></a>
-                <ul class="dropdown-menu megamenu">
-                  <li>
-                    <div class="row">
-                      <div class="col-lg-6 dropdown"><img src="img/template-homepage.png" alt=""
-                          class="img-fluid d-none d-lg-block"></div>
-                      <div class="col-lg-3 col-md-6">
-                        <h5>Portfolio</h5>
-                        <ul class="list-unstyled mb-3">
-                          <li class="nav-item"><a href="projects.html" class="nav-link">All Projects</a></li>
-                          <li class="nav-item"><a href="websites.html" class="nav-link">Websites</a></li>
-                          <li class="nav-item"><a href="portfolio-3.html" class="nav-link">APPs</a></li>
-                          <li class="nav-item"><a href="portfolio-no-space-3.html" class="nav-link">E-commerce</a></li>
-                          <li class="nav-item"><a href="portfolio-4.html" class="nav-link">Landing Pages</a></li>
-                          <li class="nav-item"><a href="portfolio-no-space-4.html" class="nav-link">Example</a></li>
-                        </ul>
-                      </div>
-                  </li>
-                </ul> -->
               <!--services-->
-              <li class="nav-item dropdown menu-large ">
-                <a href="#" data-toggle="dropdown" class="dropdown-toggle ">Services<b class="caret"></b></a>
-                <ul class="dropdown-menu megamenu">
-                  <div class="col-lg-3 col-md-6">
-                    <h5>Services</h5>
-                    <ul class="list-unstyled mb-3">
-                      <li class="nav-item"><a href="packages.html" class="nav-link">Price</a></li>
-                      <li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
-                    </ul>
-                    <li>
-                    </li>
-                </ul>
-                <!--contact-->
+              <li class="nav-item  menu-large"><a href="./service.html">Service<b class="caret"></b></a>
+              </li>
+              <!--contact-->
               <li class="nav-item dropdown menu-large">
                 <a href="./contact.html">Contact<b class="caret"></b></a>
               </li>
@@ -113,14 +82,25 @@
         </div>
     </header>
     <!-- Navbar End-->
+
+    <!-- Entry Section Start-->
+    <section style="overflow: hidden;">
+      <div id="entry_section"
+        style="background: url('img/ediporto.jpeg') center center repeat; background-size: cover; height: 400px !important;"
+        class="bar background-white relative-positioned">
+        <div class="container">
+        </div>
+      </div>
+    </section>
+    <!-- Entry Section End-->
+
     <!--BIO-->
     <div id="heading-breadcrumbs">
       <div class="container">
         <div class="row d-flex align-items-center flex-wrap">
           <div class="col-md-7">
-            <h1 class="h2">Hi,<br />
-              <br />
-              my name is Edi.</h1>
+            <h1 class="h2"> About me
+            </h1>
           </div>
         </div>
       </div>
@@ -130,7 +110,7 @@
         <section class="bar">
           <div class="row">
             <div class="col-lg-12">
-              <div class="heading">
+              <div class="heading text-center">
                 <h2>Bio</h2>
               </div>
               <p class="lead">
@@ -216,21 +196,20 @@
                 </div>
               </div>
             </div>
-                  <div class="col-md-4">
-                    <div data-animate="fadeInUp" class="team-member" >
-                      <div class="image image_edi "><img src="img/edi.jpg" alt=""
-                            class="img-fluid rounded-circle">
-                      </div>
-                    </div>
-                  </div>
+            <div class="col-md-4">
+              <div data-animate="fadeInUp" class="team-member">
+                <div class="image image_edi "><img src="img/edi.jpg" alt="" class="img-fluid rounded-circle">
                 </div>
+              </div>
+            </div>
+          </div>
         </section>
 
         <!--*** SKILLS ***-->
         <!-- HARD SKILLS-->
-        <section class="bar mt-0">
+        <section id="skills_section" class="bar mt-1" style="margin-top: -12% !important;">
           <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-4 mb-2">
               <div class="heading">
                 <h2>Hard Skills</h2>
               </div>
@@ -255,8 +234,16 @@
                   class="progress-bar bg-primary">ReactJS</div>
               </div>
               <div style=" height: 20px; border-radius: 0; margin-bottom: 20px;" class="progress">
-                <div role="progressbar" aria-valuenow="35 !" aria-valuemin="0" aria-valuemax="100" style="width: 45%;"
+                <div role="progressbar" aria-valuenow="35 !" aria-valuemin="0" aria-valuemax="100" style="width: 65%;"
                   class="progress-bar bg-primary">Angular</div>
+              </div>
+              <div style=" height: 20px; border-radius: 0; margin-bottom: 20px;" class="progress">
+                <div role="progressbar" aria-valuenow="35 !" aria-valuemin="0" aria-valuemax="100" style="width: 65%;"
+                  class="progress-bar bg-primary">NodeJS</div>
+              </div>
+              <div style=" height: 20px; border-radius: 0; margin-bottom: 20px;" class="progress">
+                <div role="progressbar" aria-valuenow="35 !" aria-valuemin="0" aria-valuemax="100" style="width: 35%;"
+                  class="progress-bar bg-primary">PHP</div>
               </div>
               <div style=" height: 20px; border-radius: 0; margin-bottom: 20px;" class="progress">
                 <div role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 70%;"
@@ -264,7 +251,7 @@
               </div>
             </div>
             <!-- TOOLS-->
-            <div class="col-md-4">
+            <div class="col-md-4  mb-2">
               <div class="heading">
                 <h2>Tools</h2>
               </div>
@@ -289,13 +276,25 @@
                   class="progress-bar bg-primary">Visual Studio</div>
               </div>
               <div style=" height: 20px; border-radius: 0; margin-bottom: 20px;" class="progress">
-              <div role="progressbar" aria-valuenow="35 !" aria-valuemin="0" aria-valuemax="100" style="width: 95%;"
+                <div role="progressbar" aria-valuenow="35 !" aria-valuemin="0" aria-valuemax="100" style="width: 95%;"
                   class="progress-bar bg-primary">SourceTree</div>
               </div>
+              <div style=" height: 20px; border-radius: 0; margin-bottom: 20px;" class="progress">
+                <div role="progressbar" aria-valuenow="35 !" aria-valuemin="0" aria-valuemax="100" style="width: 95%;"
+                  class="progress-bar bg-primary">Netlify</div>
+              </div>
+              <div style=" height: 20px; border-radius: 0; margin-bottom: 20px;" class="progress">
+                <div role="progressbar" aria-valuenow="35 !" aria-valuemin="0" aria-valuemax="100" style="width: 75%;"
+                  class="progress-bar bg-primary">Firebase</div>
+              </div>
+              <div style=" height: 20px; border-radius: 0; margin-bottom: 20px;" class="progress">
+                <div role="progressbar" aria-valuenow="35 !" aria-valuemin="0" aria-valuemax="100" style="width: 95%;"
+                  class="progress-bar bg-primary">Dev Tools</div>
+              </div>
             </div>
-     
+
             <!-- SOFT SKILLS-->
-            <div class="col-md-4">
+            <div class="col-md-4 mb-2">
               <div class="heading">
                 <h2>Soft Skills</h2>
               </div>
@@ -400,47 +399,74 @@
         </div>
       </section>
 
+      <!-- LANGUAGES-->
+      <section class="bar mt-0 p-5" style="margin-bottom: -50px !important;">
+        <div class="row " style="padding: 5%;">
+          <div class="col-lg-12 text-left ">
+            <div class="heading text-center" style="margin-top: -20px !important;">
+              <h2>Spoken Languages</h2>
+            </div>
+            <div style=" height: 20px; border-radius: 0; margin-bottom: 20px;" class="progress">
+              <div role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"
+                class="progress-bar bg-success">Italian</div>
+            </div>
+            <div style=" height: 20px; border-radius: 0; margin-bottom: 20px;" class="progress">
+              <div role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"
+                class="progress-bar bg-success">Albanian</div>
+            </div>
+            <div style=" height: 20px; border-radius: 0; margin-bottom: 20px;" class="progress">
+              <div role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"
+                class="progress-bar bg-success">Spanish</div>
+            </div>
+            <div style=" height: 20px; border-radius: 0; margin-bottom: 20px;" class="progress">
+              <div role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 75%;"
+                class="progress-bar bg-success">English</div>
+            </div>
+            <div style=" height: 20px; border-radius: 0; margin-bottom: 20px;" class="progress">
+              <div role="progressbar" aria-valuenow="35 !" aria-valuemin="0" aria-valuemax="100" style="width: 35%;"
+                class="progress-bar bg-success">French</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <!-- PASSIONS AD HOBBIES-->
       <section class="bar no-mb">
         <div class="container">
           <div class="col-md-12">
-            <div class="heading text-center">
+            <div class="heading text-left">
               <h2>Passion and Hobby</h2>
             </div>
             <div class="row text-center">
               <div class="col-md-3">
                 <!-- SPORT-->
                 <div data-animate="fadeInUp" class="team-member">
-                  <div class="image"><img src="img/projects/edicorsa3.png"  alt=""
-                        class="img-fluid rounded-circle"></div>
+                  <div class="image"><img src="img/projects/edicorsa3.png" alt="" class="img-fluid rounded-circle">
+                  </div>
                   <h3>SPORT</h3>
                   <div>
                     <p class="text">
-                      Running,<br/>
-                      Gym, <br/>
-                      Squash, <br/>
-                      Boxe, <br/>
-                      Trecking
-                  </p>
+                      Running,<br />
+                      Gym, <br />
+                      Squash <br />
+                    </p>
                   </div>
                 </div>
               </div>
               <!-- TRAVEL -->
               <div data-animate="fadeInUp" class="col-md-3">
                 <div class="team-member">
-                  <div class="image"><img src="img/tai2.png" alt=""
-                        class="img-fluid rounded-circle"></div>
-                  <h3>TRAVEL</h3>          
+                  <div class="image"><img src="img/ediviaje.png" alt="" class="img-fluid rounded-circle"></div>
+                  <h3>TRAVEL</h3>
                   <p class="text">
-                  +13 Coutries visited
-                  </p>        
+                    +13 Coutries visited
+                  </p>
                 </div>
               </div>
               <!-- COOKING-->
               <div data-animate="fadeInUp" class="col-md-3">
                 <div class="team-member">
-                  <div class="image"><img src="img/cibo.jpeg" alt=""
-                        class="img-fluid rounded-circle"></div>
+                  <div class="image"><img src="img/cibo.jpeg" alt="" class="img-fluid rounded-circle"></div>
                   <h3>COOCKING</h3>
                   <p class="text">Internation cuisine, mediterranean and asiatic</p>
                 </div>
@@ -448,19 +474,18 @@
               <!-- MOTO -->
               <div data-animate="fadeInUp" class="col-md-3">
                 <div class="team-member">
-                  <div class="image"><img src="img/moto.jpeg" alt=""
-                        class="img-fluid rounded-circle"></div>
+                  <div class="image"><img src="img/moto.jpeg" alt="" class="img-fluid rounded-circle"></div>
                   <h3>MOTOS</h3>
                   <p class="text">Suzuki SV 650
                   </p>
-                  
                 </div>
               </div>
             </div>
-        </div></div>
+          </div>
+        </div>
       </section>
 
-   <!-- 
+      <!-- 
       <div class="heading text-center">
         <h2>Certifications</h2>
       </div>
@@ -542,59 +567,73 @@
           </div>
         </div>
       </div>
-  </div> --> 
-  <!-- Carousel End-->
+  </div> -->
+      <!-- Carousel End-->
 
-  <!--CV-->
-  
-  <section class="bar background-pentagon">
-    <div class="container">
-      <div class="heading text-center">
-        <h2>Hire me!</h2>
-        <form method="get" action="./img/CVEdi.pdf"> 
-          <button  class="btn btn-primary" type="submit">My Resume</button> 
-        </form>
-      </div>
-     
-    </div>
-  </section>
-
-    <!-- GET IT-->
-    <div class="get-it">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 text-center p-3">
-            <h3>Do you want cool website like this one?</h3>
+      <!-- SOCIAL NETWORK START-->
+      <!-- AWARDS -->
+      <section class="bar background-pentagon no-mb">
+        <div class="container">
+          <div class="row showcase text-center col-sm-12">
+            <div class="col-md-4 ">
+              <div class="item">
+                <div class="icon-outlined icon-sm icon-thin"><a href="https://github.com/Edi10-developer"><i class="fa fab fa-github"></i></a></div>
+                <h4>GitHub</h4>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="item">
+                <div class="icon-outlined icon-sm icon-thin"><a href="https://www.linkedin.com/in/edi-selimi-856671173/"><i class="fa fab fa-linkedin"></i></a></div>
+                <h4>Linkedin</h4>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="item">
+                <div class="icon-outlined icon-sm icon-thin"><a href="https://www.instagram.com/ediselimi/"><i class="fa fab fa-instagram"></i></a></div>
+                <h4>Insta</h4>
+              </div>
+            </div>
           </div>
-          <div class="col-lg-4 text-center p-3"> <a href="#" class="btn btn-template-outlined-white">Buy this template
-              now</a></div>
         </div>
-      </div>
-    </div>
-    <!-- FOOTER -->
-    <footer class="main-footer">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <p>Developed by Edi Selimi &copy; 2020. - Powered by <a
-              href="https://bootstrapious.com/snippets">Bootstrapious </a> & <a href="https://fity.cz/">Fity</a></p>
-        </div>
-      </div>
-    </footer>
+      </section>
+      <!--  SOCIAL NETWORK END -->
 
-  </div>
-  <!-- Javascript files-->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/popper.js/umd/popper.min.js"> </script>
-  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-  <script src="vendor/jquery.cookie/jquery.cookie.js"> </script>
-  <script src="vendor/waypoints/lib/jquery.waypoints.min.js"> </script>
-  <script src="vendor/jquery.counterup/jquery.counterup.min.js"> </script>
-  <script src="vendor/owl.carousel/owl.carousel.min.js"></script>
-  <script src="vendor/owl.carousel2.thumbs/owl.carousel2.thumbs.min.js"></script>
-  <script src="js/jquery.parallax-1.1.3.js"></script>
-  <script src="vendor/bootstrap-select/js/bootstrap-select.min.js"></script>
-  <script src="vendor/jquery.scrollto/jquery.scrollTo.min.js"></script>
-  <script src="js/front.js"></script>
+      <!-- GET IT-->
+      <div class="get-it">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 text-center p-3">
+              <h3>Do you need a cool website?</h3>
+            </div>
+            <div class="col-lg-4 text-center p-3"> <a href="./contact.html" class="btn btn-template-outlined-white">
+                Contact me now!</a></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- FOOTER -->
+      <footer class="main-footer">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <p>Developed by Edi Selimi &copy; 2020</p>
+          </div>
+        </div>
+      </footer>
+
+    </div>
+    <!-- Javascript files-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/popper.js/umd/popper.min.js"> </script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="vendor/jquery.cookie/jquery.cookie.js"> </script>
+    <script src="vendor/waypoints/lib/jquery.waypoints.min.js"> </script>
+    <script src="vendor/jquery.counterup/jquery.counterup.min.js"> </script>
+    <script src="vendor/owl.carousel/owl.carousel.min.js"></script>
+    <script src="vendor/owl.carousel2.thumbs/owl.carousel2.thumbs.min.js"></script>
+    <script src="js/jquery.parallax-1.1.3.js"></script>
+    <script src="vendor/bootstrap-select/js/bootstrap-select.min.js"></script>
+    <script src="vendor/jquery.scrollto/jquery.scrollTo.min.js"></script>
+    <script src="js/front.js"></script>
 </body>
 
 </html>

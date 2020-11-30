@@ -18,7 +18,7 @@ $headers = 'From: ' . $_POST["name"] . '<' . $_POST["email"] . '>' . "\r\n" .
 
   //
  
-  $mail_status = mail( "eddy_staff@hotmail.it", $_POST['subject'], $_POST['message'], $headers );
+  $mail_status = mail( "contact@ediselimi.com", $_POST['subject'], $_POST['message'], $headers );
  
   //      ^
   //  Replace with your email 
