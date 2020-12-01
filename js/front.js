@@ -132,7 +132,7 @@ $(function () {
     $('.homepage').owlCarousel({
         loop: true,
         margin: 0,
-        dots: true,
+        dots: false,
         nav: false,
         autoplay: true,
         smartSpeed: 1000,

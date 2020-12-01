@@ -327,7 +327,8 @@ p.lead {
 
 .card-body p {
   font-size: 0.9rem;
-  color: #333;
+  color: black;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
 }
 
 .alert {
@@ -363,7 +364,7 @@ p.lead {
 }
 
 .row.no-space div[class*="col-"] {
-  padding: 0;
+  padding: 10px;
 }
 
 .row.no-space .box-image {
@@ -741,6 +742,7 @@ header.nav-holder.sticky {
   text-transform: uppercase !important;
   border-bottom: 1px solid #eee;
   padding: 15px 20px !important;
+  float: right !important;
 }
 
 #navbar .dropdown-menu a.nav-link:hover {
@@ -1033,8 +1035,9 @@ header.nav-holder.sticky {
 }
 
 .home-carousel .owl-carousel {
-  padding-top: 60px;
+  padding-top: 20px;
   padding-bottom: 20px;
+  height: 320px  !important;
 }
 
 .home-carousel h1, .home-carousel h2 {
@@ -1089,6 +1092,11 @@ header.nav-holder.sticky {
 }
 
 @media (max-width: 767px) {
+  .home-carousel .owl-carousel {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 280px  !important;
+  }
   .home-carousel {
     text-align: center !important;
   }
@@ -1647,7 +1655,7 @@ header.nav-holder.sticky {
 .package h4 {
   margin-top: 1rem;
   margin-bottom: 0;
-  color: #333;
+  color: black;
 }
 
 .package .price-container {
@@ -1655,7 +1663,7 @@ header.nav-holder.sticky {
 }
 
 .package .price-container span.period {
-  color: #777;
+  color: black;
   font-size: 0.9rem;
   margin-left: 10px;
 }
@@ -1739,7 +1747,7 @@ header.nav-holder.sticky {
 
 .portfolio-project p {
   font-size: 0.9rem;
-  color: #888;
+  color: black;
 }
 
 .portfolio-project .project-more p {
@@ -1752,7 +1760,7 @@ header.nav-holder.sticky {
   text-transform: uppercase;
   letter-spacing: 0.1em;
   font-size: 0.88rem;
-  color: #555;
+  color: black;
 }
 
 .portfolio-showcase {
@@ -2288,7 +2296,7 @@ ul ul a.nav-link {
 }
 
 footer.main-footer {
-  padding: 40px 0;
+  padding: 20px 0;
   padding-bottom: 0;
   background:rgba(0, 0, 0) !important;
   color: #fff;
@@ -3747,8 +3755,12 @@ a > code {
 */
 .card {
   background-color: #fff;
-  border: 1px solid rgba(0, 0, 0, 0.125);
-  border-radius: 0;
+  border: 1px solid rgba(146, 144, 144, 0.125) !important;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  -webkit-box-shadow: 6px 4.5px 6px -1px rgba(53,54,56,0.8); 
+  box-shadow: 6px 4.5px 6px -1px rgba(53,54,56,0.8);
 }
 
 .card > .list-group:first-child .list-group-item:first-child {
@@ -3859,6 +3871,10 @@ a > code {
   
   .home-blog-post .intro{
     font-size: 13px !important;
+  }
+
+  #entry_section{
+    height: 250px;
   }
   
 }
