@@ -20,6 +20,7 @@ business-e-commerce-template
 * =====================
 *
 */
+
 .boxed {
   background: url("../img/boxed-pattern.png");
 }
@@ -680,6 +681,7 @@ header.nav-holder.sticky {
   background: #fff;
   padding-top: 0;
   padding-bottom: 0;
+  width: 100%;
 }
 
 #navbar .navbar-toggler {
