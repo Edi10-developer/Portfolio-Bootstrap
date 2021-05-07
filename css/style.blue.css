@@ -19,11 +19,12 @@ https://bootstrapious.com/p/universal-business-e-commerce-template
 *
 */
 
-html, body{
-  width: 100%;
+body, html {
+  height: 100%;
+  background-repeat: no-repeat;    /*background-image: linear-gradient(rgb(12, 97, 33),rgb(104, 145, 162));*/
+  position: relative;
   overflow-x: hidden !important;
 }
-
 .boxed {
   background: url("../img/boxed-pattern.png");
 }
@@ -250,14 +251,21 @@ p.lead {
   background: #92b3d9;
 }
 
+#cards_div{
+
+  display: flex;
+  justify-content: space-around;
+}
+
 .card {
   border-radius: 0;
   margin-bottom: 10px;
+  border: 1px solid #ccc;
 }
 
 #cards_div .card{
   width: 100% !important;
-  padding: 10px !important;
+  padding: 20px !important;
 }
 
 .card-header {
@@ -2186,7 +2194,7 @@ footer.main-footer h4 {
 }
 
 footer.main-footer p {
-  font-size: 0.8rem;
+  font-size: 1.2rem;
   color: white;
   line-height: 40px !important;
 }
@@ -2247,9 +2255,32 @@ footer.main-footer .copyrights p {
   margin-bottom: 0;
 }
 
+.footer-menu {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  position: block;
+  bottom: 0;
+  width: 100%;
+  margin: 0 2rem 2.5rem 0;;
+}
+
+
+.footer-menu a {
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.footer-menu a:hover {
+  color: #ddd;
+}
 
 /*
-
 =====================
 STYLE SWITCHER FOR DEMO
 =====================
@@ -3613,8 +3644,8 @@ a > code {
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
-  -webkit-box-shadow: 6px 4.5px 6px -1px rgba(53,54,56,0.8); 
-  box-shadow: 6px 4.5px 6px -1px rgba(53,54,56,0.8);
+  -webkit-box-shadow: 2px 2.5px 2px -1px rgba(53,54,56,0.8); 
+  box-shadow: 2px 2.5px 2px -1px rgba(53,54,56,0.8);
 }
 
 .card > .list-group:first-child .list-group-item:first-child {
@@ -3704,4 +3735,30 @@ a > code {
 
 .card-deck .card {
   margin-bottom: 15px;
+}
+
+
+/************************+
+     Banner background
+************************/
+.container-banner{
+  background-color: rgba(0, 11, 24, 0.925);
+  /*background: rgba(0, 0, 0, .9);*/
+  height: 33rem;
+  overflow: hidden;
+}
+.banner-title{
+  color: rgba(253, 247, 247, 0.281);
+  margin: 3rem auto;
+  z-index: -100;
+  opacity: 1;
+}
+#particles-js{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: 50% 50%;
+   
+    top: 0px;
+    z-index:1;
 }
