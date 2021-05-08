@@ -72,9 +72,6 @@
   .image_edi img{
     display: none;
   }
-  .home-carousel, #entry_section, .introduction{
-    margin-top: 50px!important;
-  }
   #navbar {
     padding-top: 0.15rem;
     padding-bottom: 0.15rem;
@@ -278,7 +275,7 @@
   }
 
   #entry_section{
-    height: 250px;
+    max-height: 250px;
   }
 }
 

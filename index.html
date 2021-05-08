@@ -66,17 +66,17 @@
                   <b class="caret"></b></a>
               </li>
               <!--about me-->
-              <li class="nav-item  menu-large"><a href="./about.html">About<b class="caret"></b></a>
+              <li class="nav-item  menu-large"><a href="./pages/about.html">About<b class="caret"></b></a>
               </li>
               <!--portfolio-->
-              <li class="nav-item  menu-large"><a href="./projects.html">Portfolio<b class="caret"></b></a>
+              <li class="nav-item  menu-large"><a href="./pages/projects.html">Portfolio<b class="caret"></b></a>
               </li>
               <!--services-->
-              <li class="nav-item  menu-large"><a href="./service.html">Service<b class="caret"></b></a>
+              <li class="nav-item  menu-large"><a href="./pages/service.html">Service<b class="caret"></b></a>
               </li>
               <!--contact-->
               <li class="nav-item dropdown menu-large">
-                <a href="./contact.html">Contact<b class="caret"></b></a>
+                <a href="./pages/contact.html">Contact<b class="caret"></b></a>
               </li>
               </li>
             </ul>
@@ -86,27 +86,18 @@
     <!-- Navbar End-->
 
 <!-- Banner Section Start-->
-    <div class="container-banner">
-      <div id="particles-js">
-        <div id="banner">
-          <h1>Welcome To My Website</h1>
+    <div class="container-banner" id="particles-js">
+      
+        <div id="banner" >
+          <div class="container py-5 text-center">
+            <h1 class="display-4 font-weight-bold">Front End Developer</h1>
+            <p class="font-italic mb-0">Love what you do and you'll never work a day in your life</p>
         </div>
+    
       </div>
     </div>
     <!-- Banner Section End-->
-    
-    <section style="overflow: hidden;">
-      <div id="entry_section" style="background: url('img/bg_1.webp') center center repeat; background-size: cover;"
-        class="bar background-white relative-positioned">
-        <div class="container introduction">
-          <!--Inicio Banner-->
-          <div id="banner" style="position: fixed;z-index: 1000;">
-            <h1>Be Creative</h1>
-          </div>
-          <!--Fin Banner-->
-        </div>
-      </div>
-    </section>
+  
     <!-- Entry Section Start--
     <section style="overflow: hidden;">
       <div id="entry_section" style="background: url('img/bg_1.webp') center center repeat; background-size: cover;"
@@ -188,6 +179,7 @@
             </div>
 
           </div>
+          
         </section>
       </div>
 
@@ -243,6 +235,56 @@
       </div>
     </section>
 
+    <section id="content" class="bg-light">
+      <div class="container">
+        <section class="bar">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="heading text-center">
+                <h2>It is a must</h2>
+              </div>
+              <p class="lead text-center">My goal is to create your company's internet presence by mirroring its
+                identity.</p>
+            </div>
+          </div>
+        </section>
+          <div class="row portfolio text-center col-md-12 col-lg-12 " id="cards_div">
+
+            <div class="card col-lg-3 ">
+              <img class="card-img-top" src="./img/restaurant.webp" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Mobile responsive design</h5>
+                <p class="card-text">
+                  A mobile-friendly website should be sized and coded for easy interaction on a mobile device
+                </p>
+              
+              </div>
+            </div>
+
+            <div class="card col-lg-3">
+              <img class="card-img-top" src="./img/smallbuisness.webp" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Small Buisness</h5>
+                <p class="card-text">
+                  I create a digital identity of your business, keeping an imprint of your physical business</p>
+                <br />
+                <a href="./service.html" class="btn btn-primary">Service</a>
+              </div>
+            </div>
+
+            <div class="card col-lg-3">
+              <img class="card-img-top" src="./img/shopping.webp" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Shopping Online</h5>
+                <p class="card-text">Your physical business can expand without limits online, sell your products online.
+                </p>
+                <br />
+                <a href="./contact.html" class="btn btn-primary">Contact Me</a>
+              </div>
+            </div>
+          </div>
+        </section>
+
       <section style="background: url(img/fixed-background-2.webp) center top no-repeat; background-size: cover;"
         class="bar no-mb color-white text-center bg-fixed relative-positioned">
         <div class="dark-mask"></div>
@@ -275,33 +317,39 @@
       </section>
     --> 
 
-      <!-- GET IT-->
-      <div class="get-it">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 text-center p-3">
-              <h3>Do you need a cool website?</h3>
-            </div>
-            <div class="col-lg-4 text-center p-3"> <a href="./contact.html"
-                class="btn btn-template-outlined-white">Contact me now!</a></div>
-          </div>
-        </div>
-      </div>
+     
 
       <!-- FOOTER -->
-      <footer class="main-footer">
-        <div class="footer-menu">
-          <a href="">Privacy policy</a>
-          <a href="">Cookies</a>
-          <a href="">About</a>
-          <a href="">Contact</a>
-        </div>
-        <div class="row">
-          <div class="col-lg-12 col-xs-6 text-center">
-            <p>Developed by Edi Selimi &copy; <span class="fullYear"></span></p>
-          </div>
-        </div>
-      </footer>
+      <div class="footer-dark">
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>Services</h3>
+                        <ul>
+                            <li><a href="#">Web design</a></li>
+                            <li><a href="#">Development</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>About</h3>
+                        <ul>
+                          <li><a href="">Privacy policy</a></li>
+                          <li><a href="">Cookies</a></li>
+                          <li><a href="">About</a></li>
+                          <li><a href="">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 item text">
+                        <h3>Edi Selimi</h3>
+                        <p>Small business websites, Start-up websites, e-commerce.</p>
+                    </div>
+                    <div class="col item social"><a href="#"><i class="fa fab fa-linkedin"></i></a><a href="#"><i class="fa fab fa-github"></i></a><a href="#"><i class="fa fab fa-instagram"></i></a></div>
+                </div>
+                <p class="copyright">Edi Selimi &copy; <span class="fullYear"></span></p>
+            </div>
+        </footer>
+      </div>
 
       <!-- Javascript files-->
       <script src="vendor/jquery/jquery.min.js"></script>

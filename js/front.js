@@ -301,7 +301,8 @@ document.querySelector('.fullYear').appendChild(document.createTextNode(new Date
 
 
 // ------------------------------------------------------- //
-//  Banner Background
+//  
+// Banner Background
 // ------------------------------------------------------ //
 $.getScript("https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js", function(){
     particlesJS('particles-js',

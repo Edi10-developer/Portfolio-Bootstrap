@@ -2174,112 +2174,95 @@ ul ul a.nav-link {
   margin: 0;
 }
 
-footer.main-footer {
-  padding: 20px 0;
-  padding-bottom: 0;
-  background:rgba(0, 0, 0) !important;
-  color: #fff;
-  text-align: center;
+.footer-dark {
+  padding:50px 0;
+  color:#f0f9ff;
+  background-color:#000000f5;
 }
 
-footer.main-footer a {
-  color: rgba(255, 255, 255, .4);
+.footer-dark h3 {
+  margin-top:0;
+  margin-bottom:12px;
+  font-weight:bold;
+  font-size:16px;
 }
 
-footer.main-footer h4 {
-  color: #eee;
-  margin: 10px 0;
-  text-transform: uppercase;
-  letter-spacing: 0.2em;
+.footer-dark ul {
+  padding:0;
+  list-style:none;
+  line-height:1.6;
+  font-size:14px;
+  margin-bottom:0;
 }
 
-footer.main-footer p {
-  font-size: 1.2rem;
-  color: white;
-  line-height: 40px !important;
+.footer-dark ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.6;
 }
 
-
-footer.main-footer hr {
-  border: none;
-  border-top: 1px solid #ddd;
-  background: none;
+.footer-dark ul a:hover {
+  opacity:0.8;
 }
 
-footer.main-footer .footer-blog-list li {
-  margin-bottom: 20px;
+@media (max-width:767px) {
+  .footer-dark .item:not(.social) {
+    text-align:center;
+    padding-bottom:20px;
+  }
 }
 
-footer.main-footer .image {
-  width: 40px;
-  height: 40px;
-  margin-right: 10px;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
+.footer-dark .item.text {
+  margin-bottom:36px;
 }
 
-footer.main-footer .text {
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
+@media (max-width:767px) {
+  .footer-dark .item.text {
+    margin-bottom:0;
+  }
 }
 
-footer.main-footer .text a {
-  font-size: 0.8rem;
+.footer-dark .item.text p {
+  opacity:0.6;
+  margin-bottom:0;
 }
 
-footer.main-footer .photo-stream li {
-  margin: 0;
+.footer-dark .item.social {
+  text-align:center;
 }
 
-footer.main-footer .photo-stream a {
-  width: 80px;
-  height: 80px;
-  padding: 5px;
-  display: block;
+@media (max-width:991px) {
+  .footer-dark .item.social {
+    text-align:center;
+    margin-top:20px;
+  }
 }
 
-footer.main-footer .copyrights {
-  padding: 50px 0;
-  background: #333;
-  color: #ccc;
-  margin-top: 50px;
+.footer-dark .item.social > a {
+  font-size:20px;
+  width:36px;
+  height:36px;
+  line-height:36px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  box-shadow:0 0 0 1px rgba(255,255,255,0.4);
+  margin:0 8px;
+  color:#fff;
+  opacity:0.75;
 }
 
-footer.main-footer .copyrights a {
-  color: #467fbf;
+.footer-dark .item.social > a:hover {
+  opacity:0.9;
 }
 
-footer.main-footer .copyrights p {
-  color: inherit;
-  font-size: 0.8rem;
-  margin-bottom: 0;
+.footer-dark .copyright {
+  text-align:center;
+  padding-top:24px;
+  opacity:0.3;
+  font-size:13px;
+  margin-bottom:0;
 }
-
-.footer-menu {
-  display: flex;
-  justify-content: center;
-  overflow: hidden;
-  position: block;
-  bottom: 0;
-  width: 100%;
-  margin: 0 2rem 2.5rem 0;;
-}
-
-
-.footer-menu a {
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-/* Change the color of links on hover */
-.footer-menu a:hover {
-  color: #ddd;
-}
-
 /*
 =====================
 STYLE SWITCHER FOR DEMO
@@ -3742,13 +3725,13 @@ a > code {
      Banner background
 ************************/
 .container-banner{
-  background-color: rgba(0, 11, 24, 0.925);
-  /*background: rgba(0, 0, 0, .9);*/
-  height: 33rem;
+  background-color: #011022;
+  max-height: 33rem !important;
   overflow: hidden;
 }
+
 .banner-title{
-  color: rgba(253, 247, 247, 0.281);
+  color: rgb(0, 0, 0);
   margin: 3rem auto;
   z-index: -100;
   opacity: 1;
@@ -3758,7 +3741,6 @@ a > code {
     height: 100%;
     background-size: cover;
     background-position: 50% 50%;
-   
     top: 0px;
     z-index:1;
 }
