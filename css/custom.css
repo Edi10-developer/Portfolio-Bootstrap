@@ -549,3 +549,17 @@ ul li:nth-child(2):hover span{
 ul li:nth-child(3):hover span{
   background: #0A66C2 !important;
 }
+
+
+/* Policies */
+.policies-container{
+    padding: 3rem;
+}
+
+.policies-container h1{
+    text-align: center;
+}
+
+.policies-container a{
+    color: blue;
+}
