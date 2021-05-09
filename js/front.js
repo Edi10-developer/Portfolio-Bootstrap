@@ -301,7 +301,6 @@ document.querySelector('.fullYear').appendChild(document.createTextNode(new Date
 
 
 // ------------------------------------------------------- //
-//  
 // Banner Background
 // ------------------------------------------------------ //
 $.getScript("https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js", function(){
@@ -424,3 +423,16 @@ $.getScript("https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles
     );
 
 });
+
+
+// ------------------------------------------------------- //
+// Cookies
+// ------------------------------------------------------ //
+$(document).ready(function(){   
+  setTimeout(function () {
+      $("#cookieConsent").fadeIn(200);
+   }, 4000);
+  $("#closeCookieConsent, .cookieConsentOK").click(function() {
+      $("#cookieConsent").fadeOut(200);
+  }); 
+}); 
